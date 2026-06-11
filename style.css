@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(135deg, #d9f2ff, #f5fcff);
+    font-family: "Georgia", serif;
+    color: #2c4a63;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    color: #4fa3e3;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(79, 163, 227, 0.15);
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4fa3e3;
+    font-size: 2.5rem;
+}
+
+ul {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 40px 0;
+    color: #5c7d99;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    background: #7fc8ff;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background: #5ab6ff;
+}
+
+#message {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #4fa3e3;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Cute floating hearts */
+
+body::before {
+    content: "💙 ☁️ 💙 ☁️ 💙";
+    position: fixed;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 0.4;
+    pointer-events: none;
+}
